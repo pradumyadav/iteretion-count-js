@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h3>Q1> Find the number of digits?</h3>
+<P>const Find_Digits = (N) => </P>
+<P>{</P>
+<P> let ans=0;</P>
+<P> while(N!==0)</P>
+<P>  {</P>
+<P>   ans++;</P>
+<P> N=Math.floor(N/10);</P>
+<P>  }</P>
+<P>return ans;</P>
+<P > };</P><hr>
+<h3>Q2>Find the Fives.</h3>
+<p>const Find_Five = (N) => </p>
+<p> {</p>
+    <p> let res=0;</p>
+    <p> while(N!==0){</p>
+        <p>  if(N%10===5){</p>
+            <p>   res++;</p>
+            <p>  }</p>
+            <p> N=Math.floor(N/10);</p>
+            <p> }</p>
+            <p> return res;</p>
+            <p> };</p><hr>
+            <h3>Q3> Input Format?</h3></p>
+            <p>const findSum = (n) => {</p>
+                <p>let ans=0;</p>
+                <p>  for(i=1; i<=n; i++)</p>
+                <p> {</p>
+                    <p> if(i%2===0){</p>
+                        <p>  ans +=i;</p>
+                        <p> }</p>
+                        <p>  }</p>
+                        <p>  return ans;</p><hr>
+                        <h3>Q4> Find the sum of the digits of a given number?</h3>
+                        <p>const Number_Sum = (N) => </p>
+                        <p> {</p>
+                            <p>let add=0</p>
+                            <p>let i=0;</p>
+                              
+                            <p>  while(N>0)</p>
+                            <p> {</p>
+                                <p> add+=(N%10);</p>
+                                <p> N=Math.trunc(N/10);</p>
+                                <p> i++;</p>
+                                <p> }</p>
+                                <p> return add;</p>
+<p>  };</p><hr>
+<h3>Q5>Print the Odds.</h3>
+<p>const Print_Odd = (N) =></p> 
+<p> {</p>
+    <p> console.log(2);</p>
+    <p>for(let i=2;i<=N;i++){</p>
+        <p>  if(i%2!==0)</p>
+        <p>   console.log(i);</p>
+        <p>   }</p>
+        <p>};</p>
+                  
+             <p> };</p><hr>
+             <h3>Q6>Print the Pattern.</h3>
+             <p>const Print_pattern = (N) => </p>
+             <p>{</p>
+                <p> let string ="";</p>
+                <p>for(row=1;row<=N;row++){</p>
+                    <p> for(column=1;column<=row;column++){</p>
+                        <p> string+="*";</p>
+                        <p>}</p>
+                        <p> string+="\n";</p>
+                        <p> }</p>
+                        <p>console.log(string);</p>
+                        <p> };</p><hr>
+<h3>Q7> Check whether a Number is a prime or not.</h3>
+<p>const Prime_Check = (n) => </p>
+<p>{</p>
+    <p> let factor =0;</p>
+    <p>for(i =1;i<=n;i++) {</p>
+        <p>    if(n%i===0){</p>
+            <p>      factor++;</p>
+            <p> }</p>
+            <p> }</p>
+            <p>if(factor===2){</p>
+                <p>  return "YES";</p>
+                <p> }</p>
+                <p> else {</p>
+                    <p>  return "NO";</p>
+                    <p> }</p>
+        
+                    <p> };</p><hr>
+<h3>Q8>Print Numbers</h3>
+<p>const printNumbers = (n) => {</p>
+    <p> let str="";</p>
+    
+    <p>for(let i=1;i<=n;i++){</p>
+        <p>   str+=i+" "</p>
+        <p>}</p>
+        <p>console.log(str);</p>
+        <p>};</p>
+</body>
+</html>
